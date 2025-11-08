@@ -1,0 +1,63 @@
+========================================
+  RizzX - INSTALLATION INSTRUCTIONS
+========================================
+
+Your API key has been configured! ✓
+
+QUICK START (3 steps):
+----------------------
+
+1. Install dependencies:
+   npm install
+
+2. Start the app:
+   npm run dev
+
+3. Open browser:
+   http://localhost:5173
+
+That's it! 🎉
+
+========================================
+
+WHAT YOU'RE BUILDING:
+---------------------
+RizzX is an AI-powered conversational training simulator where users practice their "rizz" (conversation skills) by chatting with AI personas.
+
+The unique twist: After every message, an AI Coach provides private feedback (Rizz Rating, critique, suggestions) before the conversation continues.
+
+KEY FEATURES:
+-------------
+✓ 10 unique AI personas (5 guys, 5 girls)
+✓ 4 conversation goals
+✓ 3 difficulty levels
+✓ AI Coach feedback after every message
+✓ Win/Lose detection
+✓ Instagram DM-style interface
+✓ Purple-pink gradient design
+✓ Mobile responsive
+
+SECURITY:
+---------
+✓ API key is in .env (already configured)
+✓ .env is in .gitignore (won't be pushed to git)
+✓ Your API key is safe!
+
+DOCUMENTATION:
+--------------
+- README.md - Full documentation
+- QUICKSTART.md - Quick start guide
+- This file - Installation summary
+
+SUPPORT:
+--------
+If you have issues:
+1. Delete node_modules and reinstall: rm -rf node_modules && npm install
+2. Check the browser console for errors
+3. Make sure port 5173 is available
+4. Verify Node.js version (v18+ recommended)
+
+========================================
+Ready to start? Run: npm run dev
+========================================
+
