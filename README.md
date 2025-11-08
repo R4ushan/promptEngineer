@@ -1,52 +1,42 @@
-# RizzX - AI-Powered Conversational Training Simulator
+# RizzX - AI-Powered Conversational Training Simulator | Anthropic Hackaton
 
-An innovative chat application where users practice their conversational skills ("rizz") by messaging AI personas, with real-time AI coaching feedback after every message.
-
-![RizzX](https://img.shields.io/badge/AI-Powered-purple) ![React](https://img.shields.io/badge/React-18.2.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-3.3.6-cyan)
-
-## 🎯 Features
+An innovative chat application where cs students practice their conversational skills ("rizz") by messaging AI personas, with real-time AI coaching feedback after every message.
 
 ### Core Concept
-Practice your conversational skills with AI personas in a safe, judgment-free environment. After every message you send, an AI Coach provides instant feedback before the conversation continues.
+We challenged ourselves to **fully prompt-engineer** this project — building an app that relies entirely on AI instructions rather than hard-coded logic(was not easy!)
 
-### Key Features
+This approach turned out to be much harder than expected.  
+Through the process, we learned that:
+- Prompt engineering doesn’t replace real coding fundamentals.
+- Safe and structured AI use still requires technical competence.
+- AI is a powerful tool — but only in the hands of developers who understand it.
 
-1. **Setup Flow**
-   - Choose gender (Guy/Girl) to reveal gender-specific personas
-   - Select from unique personas: Witty Barista, Shy Classmate, Dating App Match, and more
-   - Set your goal: Get their number, Ask for a date, Be funny and witty, or Make a new friend
-   - Choose difficulty: Easy, Medium, or Hard
-   - Select AI model: Claude Sonnet 4 or Claude Opus 4
+### 🧩 Setup Flow
+- Choose **gender** (Guy/Girl) to unlock gender-specific personas  
+- Select from personas like **Witty Barista ☕**, **Shy Classmate 🎓**, or **Dating App Match 💕**  
+- Set your **goal:** Get their number, Ask for a date, Be funny, or Make a new friend  
+- Pick your **difficulty:** Easy / Medium / Hard  
+- Choose your **AI model:** Claude Sonnet 4 or Claude Opus 4  
 
-2. **Unique "Coach-First" Mechanic**
-   - Send a message
-   - AI Coach modal appears with:
-     - Rizz Rating (X/10)
-     - Detailed critique
-     - Actionable suggestions
-   - Click "Continue" to post your message
-   - AI persona responds naturally
-   - Repeat!
+### 🧑‍🏫 Coach-First Feedback System
+- Send a message → Instantly receive coaching before it’s sent  
+- AI Coach gives:
+  - **Rizz Rating (X/10)**
+  - **Detailed critique**
+  - **Actionable improvement tips**
+- Continue the chat and improve dynamically
 
-3. **Win/Lose Detection**
-   - App intelligently detects goal achievement (Victory screen)
-   - Detects conversation failures (Game Over screen)
-   - Dynamic feedback based on conversation flow
+### 🧠 Smart Outcome Detection
+- Detects successful goals (Victory screen 🎉)
+- Detects failures (Game Over screen 💀)
+- Dynamic, context-aware feedback based on conversation flow
 
-4. **Beautiful Design**
-   - Instagram DM-inspired interface
-   - Purple-pink gradient color scheme
-   - Smooth animations and transitions
-   - Fully mobile-responsive
-   - Modern, clean UI/UX
+### 🎨 Design & Experience
+- Instagram DM–style chat UI  
+- Purple-pink gradient theme  
+- Smooth animations and transitions  
+- Fully mobile-responsive and modern design  
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Anthropic API key (Claude API access)
 
 ### Installation
 
@@ -76,14 +66,8 @@ Practice your conversational skills with AI personas in a safe, judgment-free en
 
 5. **Open your browser**
    
-   Navigate to `http://localhost:5173` (or the URL shown in your terminal)
-
-### Building for Production
-
-```bash
-npm run build
-npm run preview
-```
+   Navigate to the URL shown in your terminal)
+   
 
 ## 📁 Project Structure
 
@@ -205,10 +189,6 @@ Edit `tailwind.config.js` to change the color scheme.
 - Check your API key has access to Claude Sonnet 4 and Opus 4
 - Check the browser console for error messages
 - Verify your internet connection
-
-## 📝 License
-
-This project is open source and available for personal and educational use.
 
 ## 🙏 Acknowledgments
 
